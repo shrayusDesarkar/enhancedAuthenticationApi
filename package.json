@@ -1,7 +1,7 @@
 {
-  "name": "demo",
+  "name": "api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Authentication API",
   "main": "app.js",
   "scripts": {
     "format:check": 
@@ -10,8 +10,8 @@
    "lint:check": "eslint .",
    "lint:fix": "eslint --fix .",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
   },
   "author": "",
   "license": "ISC",
